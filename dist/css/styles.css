@@ -138,6 +138,10 @@ thead th {
   font-size: 1.1em;
 }
 
+#contact {
+  padding: 4rem 0;
+}
+
 #services {
   box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
 }
@@ -158,6 +162,10 @@ thead th {
 }
 
 .github-icon {
+  font-size: 2em;
+}
+
+.doc-icon {
   font-size: 2em;
 }
 
@@ -191,6 +199,18 @@ thead th {
 
 #fries {
   height: 200px;
+}
+
+#autonomy-box {
+  background-color: rgb(239, 177, 164);
+  text-align: center;
+  height: 258.5px;
+}
+
+#autonomy-img {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
 }
 
 
