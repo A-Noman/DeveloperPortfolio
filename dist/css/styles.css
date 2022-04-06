@@ -140,6 +140,7 @@ thead th {
 
 #contact {
   padding: 4rem 0;
+  box-shadow: inset 0px 25px 79px -8px rgb(0 0 0 / 0.58);
 }
 
 #services {
@@ -7678,8 +7679,7 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding: 1.2em !important;
 }
 
 .pt-0 {
