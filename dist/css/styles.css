@@ -240,6 +240,13 @@ thead th {
   object-fit: contain;
 }
 
+.landing-name {
+  color: #66BB69;
+  --bs-text-opacity: 1;
+  font-size: 13em !important;
+  font-family: 'Sacramento', cursive;
+}
+
 
 
 /* .typed-out {
@@ -1586,7 +1593,7 @@ progress {
 
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    /* width: 66.66666667%; */
   }
 
   .col-lg-9 {
@@ -11577,7 +11584,8 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
+  background-color: #000;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
