@@ -240,11 +240,54 @@ thead th {
   object-fit: contain;
 }
 
-.landing-name {
+#allegory-box {
+  background-color: #000;
+  text-align: center;
+  height: 258.5px;
+}
+
+#allegory-img {
+  max-width:100%;
+  max-height:100%;
+  object-fit: contain;
+}
+
+#line-1 {
+  position: absolute;
+  color: white;
+  z-index: 1000;
+  padding-top: 25vh;
+  padding-left: 15vh;
+  font-size: 1.8em;
+}
+
+#line-2 {
+  position: absolute;
   color: #66BB69;
-  --bs-text-opacity: 1;
-  font-size: 13em !important;
-  font-family: 'Sacramento', cursive;
+  z-index: 1000;
+  font-size: 120px;
+  padding-top: 32vh;
+  padding-left: 15vh;
+}
+
+#line-3 {
+  position: absolute;
+  color: darkgray;
+  z-index: 1000;
+  font-size: 80px;
+  padding-left: 15vh;
+  padding-top: 50vh;
+}
+
+/* Particles styles */
+#particles-js {
+  position: relative;
+  height: 100vh;
+  background-color: #11122b;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 
@@ -11581,15 +11624,16 @@ hr.divider-light {
   }
 }
 
-header.masthead {
-  padding-top: 10rem;
+  .masthead {
   padding-bottom: calc(10rem - 4.5rem);
   /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
-  background-color: #000;
+  background-color: #C9AE90;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
+
 }
 header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
