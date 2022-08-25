@@ -77,7 +77,7 @@
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">
                           Hello! My name is Asad and I’m currently a senior studing Software Engineering at The University of North Carolina Charlotte (UNCC).
-                          <br><br>Not sure if I'll ever be able to call myself a "software engineer" but I do call myself a problem solver, a deep thinker, and a master of rubber duck debugging.
+                          <br><br>Not sure if I'll ever be able to call myself a "computer scientist" but I do call myself a problem solver, a deep thinker, and a master of rubber duck debugging.
                           <br><br>My coding journey started when I volunteered at a coding bootcamp with half of a biology degree and absolutely zero knowledge of programming. The summer after the bootcamp I changed majors, transferred universities, and began actually loving what I was doing. The education is a means to an end for me and that end is creating accessible, inclusive, and helpful products that make a difference.
                           <br><br>Some technologies I'm currently working with include:</p>
                           <ul class="tech-stack">
@@ -204,7 +204,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a id="blog-box" class="portfolio-box" href="https://itis3300-group4.weebly.com/" target="_blank" title="Agile Factory">
+                        <a id="blog-box" class="portfolio-box" href="https://itis3300-group4.weebly.com/asad.html" target="_blank" title="Agile Factory">
                             <img id="blog-img" class="img-fluid" src="./dist/assets/img/portfolio/thumbnails/blog.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">Tech Blog</div>
@@ -334,5 +334,29 @@
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+              apiKey: "AIzaSyAEVbrn3NOBg7OIpfx2j-Y1P8eVPb0mrp8",
+              authDomain: "developer-portfolio-796cd.firebaseapp.com",
+              projectId: "developer-portfolio-796cd",
+              storageBucket: "developer-portfolio-796cd.appspot.com",
+              messagingSenderId: "864241428404",
+              appId: "1:864241428404:web:f2f1096a07f88060ea74e1",
+              measurementId: "G-M5HW55LH3J"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+          </script>
     </body>
 </html>
